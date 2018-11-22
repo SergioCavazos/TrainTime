@@ -34,7 +34,7 @@
 
     <!-- Link a Firebase -->
     <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-
+   
     <!-- CDN de JQuery -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
@@ -53,8 +53,10 @@
       <h1>Platform 9 ¾</h1>
       <h2>The Hogwarts Express Schedule</h2>
       <br />
-      <div class="card-header">
-        Current Train Schedule
+
+<!-- Sección de Tabler con los trenes vigentes -->
+      <div class="card-header" >
+        <p id="board">Current Train Schedule</p>
 
         <table id="train-table" class="table">
           <thead>
@@ -70,14 +72,17 @@
           <tbody id="data"></tbody>
         </table>
       </div>
-
       <br />
 
-      <div class="card">
+<!-- Sección de campos de llenado -->
+      
+    <div class="card">
         <div class="card-header">Add Train</div>
 
         <div class="card-body">
+
           <form>
+           
             <div class="form-group mt-2">
               <label for="term">Train Name:</label>
               <input
@@ -129,9 +134,11 @@
                 Submit
               </button>
             </div>
+            
           </form>
+
         </div>
-      </div>
+    </div>
 
       <br />
     </div>
