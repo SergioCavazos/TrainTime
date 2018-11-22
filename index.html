@@ -50,12 +50,14 @@
   </head>
   <body>
     <div class="container">
-      <h1>Platform 9 ¾</h1>
-      <h2>The Hogwarts Express Schedule</h2>
+      <header id="mainHeader">
+        <h1>Platform 9 ¾</h1>
+        <h2>The Hogwarts Express Schedule</h2>
+      </header>
       <br />
 
-<!-- Sección de Tabler con los trenes vigentes -->
-      <div class="card-header" >
+<!-- Sección de Tables con los trenes vigentes -->
+      <div class="card-header bg-transparent border-bottom-0" >
         <p id="board">Current Train Schedule</p>
 
         <table id="train-table" class="table">
@@ -77,7 +79,7 @@
 <!-- Sección de campos de llenado -->
       
     <div class="card">
-        <div class="card-header">Add Train</div>
+        <div class="card-header" id="addTrain">Add Train</div>
 
         <div class="card-body">
 

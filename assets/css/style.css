@@ -3,5 +3,46 @@ text-align: center;
 }
 #board {
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(106, 18, 11, 1);
+}
+
+#mainHeader {
+    color:  rgba(231, 186, 79, 1);
+    background-color: rgba(7, 2, 13, 1);
+}
+
+#submitId {
+    color: rgba(231, 186, 79, 1);
+}
+
+#addTrain {
+    background-color: rgba(106, 18, 11, 1);
+    color: rgba(231, 186, 79, 1);
     font-weight: bold;
 }
+
+form {
+    background-image: url(../images/hp.jpg);
+    background-repeat: no-repeat; 
+    background-position: center top;
+}
+
+#train-table {
+    background-color: rgba(231, 186, 79, 1);
+    color: rgba(106, 18, 11, 1);
+   
+} 
+
+td, th, tr, td, table, thead, tbody {
+    border-bottom: 1px solid  rgba(106, 18, 11, 1);
+}
+
+th {
+    font-weight: bold;
+}
+
+/* th {
+    border-bottom: 2px solid rgba(7, 2, 13, 1);
+} */
